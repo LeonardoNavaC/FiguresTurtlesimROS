@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonardonavacastellanos/Documents/TurtlesimFigures/src
+CMAKE_SOURCE_DIR = /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonardonavacastellanos/Documents/TurtlesimFigures/build
+CMAKE_BINARY_DIR = /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/leonardonavacastellanos/Documents/TurtlesimFigures/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonardonavacastellanos/Documents/TurtlesimFigures/src /home/leonardonavacastellanos/Documents/TurtlesimFigures/src /home/leonardonavacastellanos/Documents/TurtlesimFigures/build /home/leonardonavacastellanos/Documents/TurtlesimFigures/build /home/leonardonavacastellanos/Documents/TurtlesimFigures/build/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/leonardonavacastellanos/Documents/TurtlesimFigures/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/leonardonavacastellanos/Documents/TurtlesimFigures/devel/lib:$LD_LIBRARY_PATH"
-export PWD='/home/leonardonavacastellanos/Documents/TurtlesimFigures/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/leonardonavacastellanos/Documents/TurtlesimFigures/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/leonardonavacastellanos/Documents/TurtlesimFigures/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src:$ROS_PACKAGE_PATH"

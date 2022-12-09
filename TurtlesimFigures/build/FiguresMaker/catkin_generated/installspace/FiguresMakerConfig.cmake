@@ -67,14 +67,14 @@ set(FiguresMaker_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(FiguresMaker_SOURCE_PREFIX /home/leonardonavacastellanos/Documents/TurtlesimFigures/src/FiguresMaker)
-  set(FiguresMaker_DEVEL_PREFIX /home/leonardonavacastellanos/Documents/TurtlesimFigures/devel)
+  set(FiguresMaker_SOURCE_PREFIX /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src/FiguresMaker)
+  set(FiguresMaker_DEVEL_PREFIX /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/devel)
   set(FiguresMaker_INSTALL_PREFIX "")
   set(FiguresMaker_PREFIX ${FiguresMaker_DEVEL_PREFIX})
 else()
   set(FiguresMaker_SOURCE_PREFIX "")
   set(FiguresMaker_DEVEL_PREFIX "")
-  set(FiguresMaker_INSTALL_PREFIX /home/leonardonavacastellanos/Documents/TurtlesimFigures/install)
+  set(FiguresMaker_INSTALL_PREFIX /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/install)
   set(FiguresMaker_PREFIX ${FiguresMaker_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/leonardonavacastellanos/Documents/TurtlesimFigures/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

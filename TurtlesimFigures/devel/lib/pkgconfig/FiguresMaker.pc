@@ -1,4 +1,4 @@
-prefix=/home/leonardonavacastellanos/Documents/TurtlesimFigures/devel
+prefix=/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/devel
 
 Name: FiguresMaker
 Description: Description of FiguresMaker

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leonardonavacastellanos/Documents/TurtlesimFigures/src
+CMAKE_SOURCE_DIR = /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leonardonavacastellanos/Documents/TurtlesimFigures/build
+CMAKE_BINARY_DIR = /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ FiguresMaker/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build: std_msgs_ge
 .PHONY : FiguresMaker/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 
 FiguresMaker/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/leonardonavacastellanos/Documents/TurtlesimFigures/build/FiguresMaker && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build/FiguresMaker && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : FiguresMaker/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 FiguresMaker/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/leonardonavacastellanos/Documents/TurtlesimFigures/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonardonavacastellanos/Documents/TurtlesimFigures/src /home/leonardonavacastellanos/Documents/TurtlesimFigures/src/FiguresMaker /home/leonardonavacastellanos/Documents/TurtlesimFigures/build /home/leonardonavacastellanos/Documents/TurtlesimFigures/build/FiguresMaker /home/leonardonavacastellanos/Documents/TurtlesimFigures/build/FiguresMaker/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src/FiguresMaker /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build/FiguresMaker /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build/FiguresMaker/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : FiguresMaker/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 

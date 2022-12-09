@@ -1,8 +1,8 @@
-# Install script for directory: /home/leonardonavacastellanos/Documents/TurtlesimFigures/src/FiguresMaker
+# Install script for directory: /home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src/FiguresMaker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/leonardonavacastellanos/Documents/TurtlesimFigures/install")
+  set(CMAKE_INSTALL_PREFIX "/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/leonardonavacastellanos/Documents/TurtlesimFigures/build/FiguresMaker/catkin_generated/installspace/FiguresMaker.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build/FiguresMaker/catkin_generated/installspace/FiguresMaker.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/FiguresMaker/cmake" TYPE FILE FILES
-    "/home/leonardonavacastellanos/Documents/TurtlesimFigures/build/FiguresMaker/catkin_generated/installspace/FiguresMakerConfig.cmake"
-    "/home/leonardonavacastellanos/Documents/TurtlesimFigures/build/FiguresMaker/catkin_generated/installspace/FiguresMakerConfig-version.cmake"
+    "/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build/FiguresMaker/catkin_generated/installspace/FiguresMakerConfig.cmake"
+    "/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/build/FiguresMaker/catkin_generated/installspace/FiguresMakerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/FiguresMaker" TYPE FILE FILES "/home/leonardonavacastellanos/Documents/TurtlesimFigures/src/FiguresMaker/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/FiguresMaker" TYPE FILE FILES "/home/leonardonavacastellanos/Documents/FiguresTurtlesimROS/TurtlesimFigures/src/FiguresMaker/package.xml")
 endif()
 
