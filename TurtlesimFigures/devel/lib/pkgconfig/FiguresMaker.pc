@@ -1,0 +1,8 @@
+prefix=/home/leonardonavacastellanos/Documents/TurtlesimFigures/devel
+
+Name: FiguresMaker
+Description: Description of FiguresMaker
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
